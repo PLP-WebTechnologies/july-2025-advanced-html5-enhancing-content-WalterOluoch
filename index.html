@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Assignment.week2">
+        <meta name="author" content="Brilliant Walter">
+        <title>Diet Sawa</title>
+    </head>
+
+    <body>
+        <header>Diet Sawa</header>
+        <main>
+            <h1>Welcome to Diet Sawa</h1>
+            <h2>What is Diet Sawa</h2>
+            <p>It is a place where we talk about proper nutrition for healthy and long living</p>
+
+            <h2>Let's see how various foods are grouped</h2>
+            <dl>
+                <dt>Vitamins</dt>
+                <dd> These protect our body from diseases by providing our bodies with the necessary micronutrients to fight off infections and other diseases.</dd>
+                <dt>Carbohydrates</dt>
+                <dd>These give us energy to carry out our daily activities</dd>
+                <dt>Proteins</dt>
+                <dd>Are essential in helping our bodies grow and repair itself</dd>
+            </dl>
+
+            <h2>Where can we get these nutrients?</h2>
+            <p>Don't worry , we got you covered, here is a table showing the various food groups and where we can get them from</p>
+
+            <!-- Table showing the food examples from every group -->
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <td>Vitamins</td>
+                        <td>Carbohydrates</td>
+                        <td>Proteins</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Apples</td>
+                        <td>Bread</td>
+                        <td>Beef</td>
+                    </tr>
+                    <tr>
+                        <td>Bananas</td>
+                        <td>Mandazis</td>
+                        <td>Beans</td>
+                    </tr>
+                    <tr>
+                        <td>Cabbages</td>
+                        <td>Ugali</td>
+                        <td>Liver</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Video showing the benefits of eating healthy -->
+            <p>Below is a video showing the benefits of proper diet </p>
+            <video controls width="640" height="360" autoplay>
+                <source src="https://youtu.be/fcXxI_htZS0" type="video/mp4">
+            </video>
+
+            <!--Form for getting a personal diet  -->
+            <p>Help us make a personalised diet plan for you by filling this form as accurately as possible</p>
+
+            <form action="#" method="post">
+                <fieldset>
+
+                    <legend>Personal data</legend>
+                    
+                    <label for="gender">Gender;</label>
+                    <select id="gender" name="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="Other">Other</option>
+                    </select><br><br>
+                    
+                    <label for="county">County;</label>
+                    <select id="county" name="county">
+                        <option value="Nairobi">Nairobi</option>
+                        <option value="Mombasa">Mombasa</option>
+                        <option value="Nakuru">Nakuru</option>
+                        <option value="Kisumu">Kisumu</option>
+                    </select><br><br>
+
+
+                    <label for="name">Name;</label><br>
+                    <input type="text" name="Name" id="name"  aria-placeholder="Enter your name" required><br><br>
+
+                    <label for="phone number">Phone number;</label><br>
+                    <input type="number" name="Phone number" id="phone number" aria-placeholder="Please enter your number" required><br><br>
+
+                    <label for="occupation">Occupation;</label><br>
+                    <input type="text" name="Occupation" id="occupation"  aria-placeholder="What is your occupation?"><br><br>
+
+                    <label for="email">Email;</label><br>
+                    <input type="email" name="useremail" id="email" aria-placeholder="Enter your email" minlength="8" maxlength="70"><br><br>
+
+                    <label for="other">Other information;</label><br>
+                    <textarea name="Other information"  id="other" aria-placeholder="Write down other relevant information such as illnesses and allergies" rows="15" cols="50"></textarea>
+
+                </fieldset>
+                <button type="submit">Submit</button>
+            </form>
+        </main>
+
+        <footer>
+            <p>&copy; Brilliant Walter. All rights reserved</p>
+        </footer>
+    </body>
+
+</html>
